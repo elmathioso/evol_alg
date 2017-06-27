@@ -12,8 +12,8 @@ The following files are intended to show the ability optimizing the memory stora
 ## Example 
 Considering the first five letters of the Morse code ("A"=".-", "B"="-...", "C"="-.-.", "D"="-..", "E"="."), we can assume the following fit:
 
-A:			**.-**
-A+B:		.**-...** (They match on the dash)
-A+B+C:		.-...**-.-.** (No match found) 
-A+B+C+D:	.**-..**.-.-. ("D" matches on the first dash)
-A+B+C+D+E:  **.**-...-.-. (Match found on the first dot)
+A:			.-<br>
+A+B:		.-... (They match on the dash)<br>
+A+B+C:		.-...-.-. (No match found) <br>
+A+B+C+D:	.-...-.-. ("D" matches on the first dash)<br>
+A+B+C+D+E:  .-...-.-. (Match found on the first dot)<br>
